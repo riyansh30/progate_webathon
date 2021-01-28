@@ -1,0 +1,266 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+title{
+  font-family: "Times New Roman";
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+.clear {
+  clear: left;
+}
+
+.project {
+  max-width: 1170px;
+
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper  {
+  
+  padding: 225px 0 200px 0;
+  background-image: url('https://www.wallpapertip.com/wmimgs/167-1673932_photo-wallpaper-abstract-design-background-vector-vector-wallpaper.jpg');
+  background-size: cover;
+  
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: black;
+  text-align: left;
+   padding-left: 600px;
+  line-height: 30px;
+  padding-top: 80px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  text-align: left;
+  padding-top: 15px;
+  color: black;
+  padding-left: 600px;
+  padding-top: 25px;
+  line-height: 40px;
+  font-family: cursive
+}
+
+.top-wrapper img{
+  float: left;
+  padding-left: 300px;
+  
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+  color:white;
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  float: left;
+  color: white;
+  font-weight:normal;
+  padding-left: 100px;
+  font-family: "Lucida Handwriting";
+
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  color:white;
+  padding-right: 15px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #E6E6FA;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  border-style: underline;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+  text-align: center;
+
+}
+
+
+
+.lesson-icon p {
+  
+  top: 44%;
+  width: 100%;
+  color: #6495ED;
+  font-size: 25px;
+
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+  padding-top:40px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color:  #AFEEEE;
+  
+  
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: grey;
+  opacity: 1.0;
+  cursor: pointer;
+  color:white;
+  
+
+}
+
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color:white;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Courier New";
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.project-title{
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  line-height: 40px;
+  color: #5f5d60;
+
+}
+.btn-wrapper {
+  
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.github {
+  background-color: #757575;
+  color:black;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+  opacity: 1;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+
+}
+  
+  .btn h4{
+    color:black;
+  }
+  
+.text-contents{
+  color:#9370DB;
+}
+.project h3{
+  color:#48D1CC;
+}
